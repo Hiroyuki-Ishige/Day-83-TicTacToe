@@ -46,5 +46,5 @@ while playing:
         print("\n------------------------\n"
               "Game is ended with even\n"
               "Thank you for playing!!\n"
-              "------------------------")
+              "-------------------------")
         playing = False
