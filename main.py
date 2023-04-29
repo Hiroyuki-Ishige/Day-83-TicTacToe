@@ -12,7 +12,7 @@ while playing:
     # os.system("cls")
     draw_board(spots)
     # get input from the player
-    choice = input(f'It\'s your[{check_turn(turn)}] turn. Please select (1 to 9) from unselected spots,\n'
+    choice = input(f'It\'s your[{check_turn(turn)}] turn... Please select (1 to 9) from unselected spots,\n'
                    f'or press "q" to quit:')
     if choice == "q":
         playing = False
